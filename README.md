@@ -28,7 +28,7 @@ Terminal veya komut istemcisinde aşağıdaki komutu çalıştırarak projeyi kl
 git clone https://github.com/kanlazim/mobile-app-flutter.git
 ```
 
-### 3.  Bağımlılıkları Yükleyin
+### 3. Bağımlılıkları Yükleyin
 
 Proje dizinine gidin ve Flutter bağımlılıklarını yükleyin:
 
@@ -50,21 +50,21 @@ flutter run
 mobile-app-flutter/
 │
 ├── lib/
-│   ├── main.dart       # Uygulamanın giriş noktası
-│   ├── screens/        # Ekranların bulunduğu klasör
-│   ├── core/           # Tekrar kullanılabilir widget'lar ve sabit değişkenler
-│   └── services/       # API, veri tabanı ve diğer servislerle ilgili kodlar
-│   ├── models/         # Uygulama veri modelleri
+│ ├── main.dart # Uygulamanın giriş noktası
+│ ├── screens/ # Ekranların bulunduğu klasör
+│ ├── core/ # Tekrar kullanılabilir widget'lar ve sabit değişkenler
+│ └── services/ # API, veri tabanı ve diğer servislerle ilgili kodlar
+│ ├── models/ # Uygulama veri modelleri
 │
-├── assets/             # Resimler, ikonlar ve diğer statik dosyalar
-├── pubspec.yaml        # Proje bağımlılıkları ve varlıkların tanımlandığı dosya
-└── README.md           # Proje hakkında bilgi veren bu dosya
+├── assets/ # Resimler, ikonlar ve diğer statik dosyalar
+├── pubspec.yaml # Proje bağımlılıkları ve varlıkların tanımlandığı dosya
+└── README.md # Proje hakkında bilgi veren bu dosya
 
 ## 📸 Ekran Görüntüleri
 
-| Ana Sayfa | Kan Talebi Oluşturma | Bildirimler |
-|-----------|----------------------|-------------|
-| ![Ana Sayfa](./assets/screenshots/home.png) | ![Kan Talebi Oluşturma](./assets/screenshots/request.png) | ![Bildirimler](./assets/screenshots/notifications.png) |
+| Ana Sayfa                            | Kan Talebi Oluşturma                               | Kan İhtiyaçlarını Görme                                    |
+| ------------------------------------ | -------------------------------------------------- | ---------------------------------------------------------- |
+| ![Ana Sayfa](./screenshots/home.png) | ![Kan Talebi Oluşturma](./screenshots/request.png) | ![Kan İhtiyaçlarını Görme](./screenshots/request_list.png) |
 
 ## 🤝 Katkıda Bulunma
 
