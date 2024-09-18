@@ -1,18 +1,77 @@
-# kan_lazim
+# Kan Lazım - Mobil Uygulama
 
-A new Flutter project.
+Kan Lazım, acil kan ihtiyacını karşılamak amacıyla kan bağışçıları ile ihtiyaç sahiplerini güvenilir ve hızlı bir şekilde buluşturan bir sosyal sorumluluk projesidir. Bu mobil uygulama, kullanıcıların kan taleplerini oluşturmasını, bağışçıların bu talepleri görüntülemesini ve ihtiyaç sahiplerine ulaşmasını sağlar.
 
-## Getting Started
+## 📱 Özellikler
 
-This project is a starting point for a Flutter application.
+- **Kan Talebi Oluşturma:** Kullanıcılar, acil kan ihtiyaçlarını uygulama üzerinden kolayca oluşturabilir.
+- **Kan Talebi Görüntüleme:** Bağışçılar, yakınlarındaki kan taleplerini görüntüleyebilir.
+- **Konum Bazlı Eşleştirme:** Kullanıcıların konum bilgisine göre en yakın kan bağışçılarını ve kan ihtiyacını bulur.
+- **Gerçek Zamanlı Bildirimler:** Yakınınızdaki kan ihtiyaçları için anında bildirim alabilirsiniz.
+- **Hızlı İletişim:** Kan ihtiyacı olan kişiler ile bağışçıları hızlı bir şekilde iletişime geçirir.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Kurulum
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# kan-lazim" 
-"# mobile-app-flutter" 
+### 1. Gereksinimler
+
+- Flutter SDK: [Flutter Kurulumu](https://flutter.dev/docs/get-started/install)
+- Android Studio veya Visual Studio Code (Flutter ile uyumlu IDE)
+- Git: [Git Kurulumu](https://git-scm.com/downloads)
+
+### 2. Projeyi Klonlayın
+
+Terminal veya komut istemcisinde aşağıdaki komutu çalıştırarak projeyi klonlayın:
+
+```bash
+git clone https://github.com/kanlazim/mobile-app-flutter.git
+```
+
+### 3.  Bağımlılıkları Yükleyin
+
+Proje dizinine gidin ve Flutter bağımlılıklarını yükleyin:
+
+```bash
+cd mobile-app-flutter
+flutter pub get
+```
+
+### 4. Çalıştırma
+
+Uygulamayı bir emülatörde veya fiziksel cihazda çalıştırmak için aşağıdaki komutu kullanın:
+
+```bash
+flutter run
+```
+
+### 📂 Proje Yapısı
+
+mobile-app-flutter/
+│
+├── lib/
+│   ├── main.dart       # Uygulamanın giriş noktası
+│   ├── screens/        # Ekranların bulunduğu klasör
+│   ├── core/           # Tekrar kullanılabilir widget'lar ve sabit değişkenler
+│   └── services/       # API, veri tabanı ve diğer servislerle ilgili kodlar
+│   ├── models/         # Uygulama veri modelleri
+│
+├── assets/             # Resimler, ikonlar ve diğer statik dosyalar
+├── pubspec.yaml        # Proje bağımlılıkları ve varlıkların tanımlandığı dosya
+└── README.md           # Proje hakkında bilgi veren bu dosya
+
+## 📸 Ekran Görüntüleri
+
+| Ana Sayfa | Kan Talebi Oluşturma | Bildirimler |
+|-----------|----------------------|-------------|
+| ![Ana Sayfa](./assets/screenshots/home.png) | ![Kan Talebi Oluşturma](./assets/screenshots/request.png) | ![Bildirimler](./assets/screenshots/notifications.png) |
+
+## 🤝 Katkıda Bulunma
+
+Bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+
+1. Bu repository'yi forklayın.
+2. Yeni bir dal (branch) oluşturun: `git checkout -b yeni-özellik`
+3. Yaptığınız değişiklikleri commit edin: `git commit -m 'Yeni bir özellik eklendi'`
+4. Dalınıza (branch) push yapın: `git push origin yeni-özellik`
+5. Bir **Pull Request** açın.
