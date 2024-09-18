@@ -45,21 +45,6 @@ Uygulamayı bir emülatörde veya fiziksel cihazda çalıştırmak için aşağ�
 flutter run
 ```
 
-### 📂 Proje Yapısı
-
-mobile-app-flutter/
-│
-├── lib/
-│ ├── main.dart # Uygulamanın giriş noktası
-│ ├── screens/ # Ekranların bulunduğu klasör
-│ ├── core/ # Tekrar kullanılabilir widget'lar ve sabit değişkenler
-│ └── services/ # API, veri tabanı ve diğer servislerle ilgili kodlar
-│ ├── models/ # Uygulama veri modelleri
-│
-├── assets/ # Resimler, ikonlar ve diğer statik dosyalar
-├── pubspec.yaml # Proje bağımlılıkları ve varlıkların tanımlandığı dosya
-└── README.md # Proje hakkında bilgi veren bu dosya
-
 ## 📸 Ekran Görüntüleri
 
 | Ana Sayfa                            | Kan Talebi Oluşturma                               | Kan İhtiyaçlarını Görme                                    |
